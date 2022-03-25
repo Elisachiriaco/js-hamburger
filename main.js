@@ -5,11 +5,11 @@ let chiusura = document.querySelector(".fa-times");
 console.log(chiusura);
 
 hamburger.addEventListener("click", function () {
-    let hamburger = document.querySelector("div.hamburger-menu");
+    let hamburger = document.querySelector(".hamburger-menu");
     hamburger.classList.add("active");
 });
 
 chiusura.addEventListener("click", function () {
-    let hamburger = document.querySelector("div.hamburger-menu");
+    let hamburger = document.querySelector(".hamburger-menu");
     hamburger.classList.remove("active");
 });
